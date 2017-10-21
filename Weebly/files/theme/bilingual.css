@@ -1,0 +1,30 @@
+.first-lang .wsite-menu-default li:nth-child(even){
+	display: none!important;
+}
+
+.second-lang .wsite-menu-default li:nth-child(odd){
+	display: none!important;
+}
+
+/* flag properties as shown in demo */
+
+a.flaggy{
+	position: absolute;
+	right: 0;
+	margin-top: -50px;
+	border-bottom: none;
+}
+
+/* properties for editor */
+
+#icontent .flaggy{
+	display: none
+}
+
+#icontent .wsite-menu-default li:nth-child(even){
+	display: inline-block!important;
+}
+
+#icontent .wsite-menu-default li:nth-child(odd){
+	display:  inline-block!important;
+}
