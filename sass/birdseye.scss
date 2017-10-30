@@ -1,0 +1,14 @@
+ 
+ body.page-has-banner.affix .birdseye-header, body.splash-page.affix .birdseye-header { position: fixed; top: 0; background: rgba(35, 35, 35, 0.95); padding: 10px 30px; }
+ body.wsite-checkout-page .birdseye-header, body.wsite-native-mobile-editor .birdseye-header { position: absolute !important; }
+ #icontent .wrapper .birdseye-header .logo, #preview-iframe .landing-page .wrapper .birdseye-header .logo, #icontent.landing-page .wrapper .birdseye-header .logo, #icontent .wrapper .nav, #preview-iframe .landing-page .wrapper .nav, #icontent.landing-page .wrapper .nav, #icontent .wrapper .banner-wrap .container, #preview-iframe .landing-page .wrapper .banner-wrap .container, #icontent.landing-page .wrapper .banner-wrap .container { opacity: 1 !important; }
+ body.fade-on-scroll .banner { opacity: 0; }
+ body.page-has-banner .birdseye-header { padding: 20px 30px; }
+ .birdseye-header { position: fixed; z-index: 12; overflow-y: hidden; width: 100%; padding: 10px 30px; box-sizing: border-box; backface-visibility: hidden; -webkit-backface-visibility: hidden; -webkit-transition: all 250ms ease; -moz-transition: all 250ms ease; -ms-transition: all 250ms ease; -o-transition: all 250ms ease; transition: all 250ms ease; }
+ .birdseye-header .container { display: table; overflow-y: hidden; width: 100%; max-height: 80px; }
+ .birdseye-header .logo { display: table-cell; overflow-y: hidden; margin-right: 30px; padding: 0; vertical-align: middle; line-height: normal; }
+ .birdseye-header .logo a { display: block; margin-right: 30px; margin-left: 10px; color: #ffffff; text-transform: uppercase; letter-spacing: 0.03em; font-family: 'Open Sans', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; }
+ .birdseye-header .logo img { display: block; overflow: hidden; max-width: 200px; max-height: 40px; }
+ .birdseye-header .logo #wsite-title { display: block; max-width: 400px; font-family: 'Open Sans', sans-serif; font-size: 24px; font-weight: 600; line-height: normal; }
+ 
+ 

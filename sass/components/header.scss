@@ -1,0 +1,59 @@
+.nav { display: table-cell; overflow-y: hidden; padding: 0; vertical-align: middle; 
+    -webkit-transition: all 500ms ease; -moz-transition: all 500ms ease; -ms-transition: all 500ms ease;
+     -o-transition: all 500ms ease; transition: all 500ms ease; 
+     ul { float: right; overflow: hidden; max-width: 1115px;
+        li { display: inline-block; margin-right: 5px; padding: 0; } }
+    }
+
+.nav li > a.wsite-menu-item { display: block; padding: 8px 12px; border: 2px solid transparent;
+     border-radius: 2px; color: #ffffff; text-transform: uppercase; letter-spacing: 0.05em; 
+     font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 400; line-height: normal;
+      -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease;
+       -o-transition: all 300ms ease; transition: all 300ms ease; }
+
+.nav li#active > a.wsite-menu-item, .nav li > a.wsite-menu-item:hover { border: 2px solid #ffffff; }
+
+.mobile-nav { position: fixed; top: 0; left: 0; z-index: 12; display: block; overflow-x: hidden; overflow-y: auto; 
+    width: 100%; height: 100%; max-height: 0; padding: 0; background: rgba(9, 51, 93, 0.95); 
+    box-sizing: border-box; 
+    -webkit-transition: all 300ms cubic-bezier(0, 0.085, 0.68, 0.53); 
+    -moz-transition: all 300ms cubic-bezier(0, 0.085, 0.68, 0.53); 
+    -ms-transition: all 300ms cubic-bezier(0, 0.085, 0.68, 0.53); 
+    -o-transition: all 300ms cubic-bezier(0, 0.085, 0.68, 0.53); 
+    transition: all 300ms cubic-bezier(0, 0.085, 0.68, 0.53); }
+
+.mobile-nav ul { float: none; height: auto; }
+.mobile-nav li { position: relative; display: block !important; margin: 0; border: none; text-align: center; }
+.mobile-nav li .wsite-menu-link-styles { position: relative; padding: 10px 0; border: none; }
+.mobile-nav li > a.wsite-menu-item { position: relative; padding: 10px 0; border: none; }
+.mobile-nav li > a.wsite-menu-subitem { display: block; position: relative; padding: 10px 0; 
+    border: none; color: #a1a1a1; text-transform: none; font-family: 'Open Sans', sans-serif;
+     font-size: 14px; font-weight: 400; line-height: normal; -webkit-transition: all 300ms ease;
+      -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease;
+       transition: all 300ms ease; }
+.mobile-nav li .wsite-menu-wrap { display: block !important; overflow: hidden; max-height: 0;
+     -webkit-transition: all 500ms ease-in-out 250ms; -moz-transition: all 500ms ease-in-out 250ms;
+      -ms-transition: all 500ms ease-in-out 250ms; -o-transition: all 500ms ease-in-out 250ms;
+       transition: all 500ms ease-in-out 250ms; }
+.mobile-nav li .wsite-menu-wrap li.wsite-nav-current > a.wsite-menu-subitem { background: rgba(0, 0, 0, 0.95); border: none; }
+.mobile-nav li .wsite-menu-wrap .wsite-menu-arrow { display: none; }
+.mobile-nav li.wsite-menu-item-wrap#active > a.wsite-menu-item, .mobile-nav li.wsite-menu-item-wrap > a.wsite-menu-item:hover, .mobile-nav li.wsite-menu-subitem-wrap > a.wsite-menu-subitem:hover { background: rgba(0, 0, 0, 0.95); border: none; }
+.mobile-nav li.has-submenu > span.icon-caret { position: absolute; top: 0; right: 0; display: block; width: 20px; height: 20px; 
+    padding: 10px 20px; cursor: pointer; -webkit-transition: all 300ms ease-in-out;
+     -moz-transition: all 300ms ease-in-out; -ms-transition: all 300ms ease-in-out;
+     -o-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+.mobile-nav li.has-submenu > span.icon-caret:before { position: relative;
+     display: block; color: white; font-size: 24px; content: '\203A'; 
+     -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); 
+     -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); }
+//.mobile-nav li.has-submenu .wsite-menu-wrap.open { max-height: 1000px; }
+.mobile-nav li.wsite-nav-more { display: none !important; }
+
+
+#wsite-menus .wsite-menu-wrap { margin-top: 10px; }
+#wsite-menus .wsite-menu { position: relative; }
+#wsite-menus .wsite-menu li a { background: #828282; color: white; border: none; text-transform: uppercase; letter-spacing: 0.05em; font-family: 'Open Sans', sans-serif; font-size: 13px; font-weight: normal; line-height: normal; }
+#wsite-menus .wsite-menu li a:hover { background: #0a0a0a; color: white; }
+#wsite-menus .wsite-menu li > .wsite-menu-wrap { margin-top: 0; }
+#wsite-menus .wsite-menu-arrow { color: transparent; font-size: 0; }
+#wsite-menus .wsite-menu-arrow:before { display: block; color: white; content: '\203A'; font-family: 'Open Sans', sans-serif; font-size: 24px; font-weight: normal; line-height: 11px; }

@@ -1,0 +1,52 @@
+
+label{
+    .hamburger{
+        position: absolute; 
+        top: 0; 
+        right: 0; 
+        width: 30px; 
+        height: 30px; 
+        padding: 10px; cursor: pointer;
+         -webkit-transition: all 300ms ease-in-out; -moz-transition: all 300ms ease-in-out; -ms-transition: all 300ms ease-in-out; 
+        -o-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out;
+        span{
+            top: 9px; left: 4px; margin: 5px 0;
+            position: relative; 
+            display: block; 
+            width: 22px; 
+            height: 2px; 
+            background: #ffffff; 
+            content: ''; 
+            -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; 
+            -ms-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out;
+            
+            :before { top: -8px; }
+            :after { bottom: -6px; }
+            
+        }
+    }
+}
+
+
+
+
+
+//Responsive Design
+.mobile-nav {
+    label{
+        .hamburger{
+            span { background: transparent; }
+            :before { top: 1px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+           :after { top: -1px; -webkit-transform: rotate(135deg); -moz-transform: rotate(135deg); -ms-transform: rotate(135deg); -o-transform: rotate(135deg); transform: rotate(135deg); }
+            
+        } 
+
+}
+}
+/*  .birdsye-header?
+ .birdseye-header label.hamburger { display: table-cell; vertical-align: middle; }
+ body.nav-open .birdseye-header label.hamburger span { background: transparent; }
+ body.nav-open .birdseye-header label.hamburger span:before { top: 1px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+ body.nav-open .birdseye-header label.hamburger span:after { top: -1px; -webkit-transform: rotate(135deg); -moz-transform: rotate(135deg); -ms-transform: rotate(135deg); -o-transform: rotate(135deg); transform: rotate(135deg); }
+ .birdseye-header label.hamburger { display: none; }
+*/
