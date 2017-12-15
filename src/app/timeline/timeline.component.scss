@@ -1,0 +1,16 @@
+$primary-color: #09335D;
+$secondary-color: white;
+$link:#2a92e5;
+
+button{
+    background-color:white;
+    color:$link;
+    border-style: solid;
+    border-color: $link;
+    height: 3em;
+    width: 15em;
+}
+button:hover{
+    background-color:$link;
+    color:white;
+}

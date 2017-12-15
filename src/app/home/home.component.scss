@@ -1,0 +1,108 @@
+$primary-color: #09335D;
+$secondary-color: white;
+$link:#2a92e5;
+.container{
+    margin-top:3em;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    .logoWrap{
+        margin-bottom:3em;
+    }
+    hr{
+        width:80%;
+    }
+    .paragraph{
+        color:$primary-color;
+        font-size:1.5rem;
+        font-family: "Montserrat";
+        width:80%;
+        margin:2em 0 5em 0;
+        text-align: center;
+        
+    }
+   
+.accordionWrap{
+ margin-bottom: 3em;   
+}
+    .accordion_slider {
+        
+         width: 660px; height: 320px;
+         overflow: hidden;
+         box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+         -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+         -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+         }
+         .accordion_slider {
+             ul {
+         width: 2000px;
+         }
+         ul:hover li {width: 40px;}
+         ul li:hover {width: 330px;}
+         li {
+            position: relative;
+            display: block;
+            width: 160px;
+            float: left;
+            border-left: 1px solid #888;
+            box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+            -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+            -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            }
+            li img {
+                display: block;
+                max-width: 640px !important;
+                }
+        }
+        
+        
+         .image_box {
+         background: rgba(0, 0, 0, 0.5);
+         position: absolute;
+         left: 0; bottom: 0; 
+         width: 640px; 
+         a {
+            display: block;
+            color: #fff !important;
+            text-decoration: none;
+            text-align: left;
+            padding: 20px;
+            font-size: 16px;
+            }
+         }
+    .gallery{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        .items{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 20em;
+            justify-content: center;
+            margin: 1em;
+            img{
+                width: 20em;
+                margin: 1em;
+            }
+            button{
+                background-color:white;
+                color:$link;
+                border-style: solid;
+                border-color: $link;
+                height: 3em;
+                width: 15em;
+            }
+            button:hover{
+                background-color:$link;
+                color:white;
+            }
+        }
+    }
+}
+
+
+

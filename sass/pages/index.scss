@@ -1,2 +1,59 @@
 .container { width: 100%; }
 
+.accordionWrap{
+    text-align: center;
+  margin-left:30%;
+     overflow-y: hidden;
+
+
+}
+div.paragraph { text-align: center;
+    color: #073763;
+    font-weight: 900; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 16px; font-weight: 600;
+     line-height: 30px;
+    margin: 4em 0 4em 0; }
+
+    .logoWrap{
+        padding-top:10px;
+        padding-bottom:30px;
+        margin-left:0px;
+        margin-right:0px;
+        text-align:center
+    }
+    #swagLogo{
+        width:auto;
+        max-width:100%;
+        margin-bottom: 2em;
+
+    }
+    hr{
+        width:100%;
+
+    }
+    button{
+        background-color: white;
+        color: $linkColor;
+        border-color: $linkColor;
+
+        
+    }
+    button:hover{
+        color:white;
+        background-color: $hoveColor;
+    }
+    .gallery{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        img{
+            width: 20em;
+            margin: 2em;
+        }
+        .items{
+            text-align: center;
+        }
+
+    }

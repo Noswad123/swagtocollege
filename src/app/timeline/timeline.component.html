@@ -1,0 +1,41 @@
+<button (click)="changeView('student')">
+  Student</button>
+<button (click)="changeView('studentSP')">Student Spanish</button>
+<button (click)="changeView('parentSP')">Parent spanish</button>
+<button (click)="changeView('parent')">parent</button>
+
+
+<div *ngIf="selectedView=='landing'"> 
+  
+  <h2>(Select a timeline from above)</h2>
+<!--
+  <button>Student Timelines</button>
+  <button>Parent Timeline</button>
+  <button>Linea de Tiempo Para lost Estudiantes</button>
+  <button> Linea de Tiempo para los Padres</button>-->
+
+</div>
+<div *ngIf="selectedView=='student'">
+  <button (click)="getTimeline('Freshman')">Freshman</button>
+  <button (click)="getTimeline('Sophomore')">Sophomore</button>
+  <button (click)="getTimeline('Junior')">Junior</button>
+  <button (click)="getTimeline('Senior')">Senior</button>
+    <div *ngIf="this.timeline.grade!='hide'">
+      <div>
+        <span>{{timeline.grade}}</span>
+        <div *ngFor="let goal of this.timeline.goals">{{goal}}</div>
+      </div>
+
+      <div *ngFor="let time of this.timeline.months">
+        <h3>{{time.month}}</h3>
+        <ul >
+          <li *ngFor="let step of time.steps">{{step}}</li>
+        </ul>
+      </div>
+    </div>
+</div>
+<div *ngIf="selectedView=='parent'"> Parent</div>
+
+
+<div *ngIf="selectedView=='parentSP'"> Parent Spanish</div>
+<div *ngIf="selectedView=='studentSP'"> Student Spanish</div>
