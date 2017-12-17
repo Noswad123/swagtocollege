@@ -1,68 +1,55 @@
-<button (click)="changeView('college')">
-  College Resources</button>
+<div *ngIf="selectedView !='landing'">
+<button (click)="changeView('college')">College Resources</button>
 <button (click)="changeView('online')">Online Resources</button>
 <button (click)="changeView('importantDocs')">Important Document</button>
 <button (click)="changeView('parent')">Parent Resources</button>
+</div>
 
-
-<div class="view" *ngIf="selectedView=='landing'">
+<div class="view" id="landing" *ngIf="selectedView=='landing'">
 
   <h2 class="wsite-content-title" style="text-align:center;">
     <font color="#248d6c">Resources</font>
   </h2>
 
-
+<div id="itemWrapper">
  
-    <div style="height: 10px; overflow: hidden;"></div>
-    <a class="wsite-button wsite-button-large wsite-button-highlight" href="http://www.swagtocollege.org/college-resources.html">
-      <span class="wsite-button-inner">College Resources</span>
-    </a>
-
-    <div class="paragraph" style="text-align:center;">
-      <strong>This section contains information to reserach colleges including college fly-ins and full-need colleges.&nbsp;</strong>
+  <div class="item" >
+      <button (click)="changeView('college')">
+      <h3>College Resources</h3>
+   </button>
+   <br>
+      <span>This section contains information to reserach colleges including college fly-ins and full-need colleges.</span>
     </div>
 
-    <div style="text-align:center;">
-      <div style="height: 10px; overflow: hidden;"></div>
-      <a class="wsite-button wsite-button-large wsite-button-highlight" href="http://www.swagtocollege.org/online-resources.html">
-        <span class="wsite-button-inner">Online Resources</span>
-      </a>
-      <div style="height: 10px; overflow: hidden;"></div>
-    </div>
-
-  
-      <strong>
-        <span style="font-weight:bold">This section contains links to
-          <font color="#10104b">K</font>han Academy and Coursera tools to prepare for college.</span>
-      </strong>
+    <div class="item" >
+        <button (click)="changeView('online')">
+        <h3>Online Resources</h3>
+        </button>
+        <br>
+        <span >This section contains links to Khan Academy and Coursera tools to prepare for college.</span>
    
-
+    </div>
 
   
-      <div style="height: 10px; overflow: hidden;"></div>
-      <a class="wsite-button wsite-button-large wsite-button-highlight" href="http://www.swagtocollege.org/documents.html">
-        <span class="wsite-button-inner">Important Documents</span>
-      </a>
-
-
-      <div class="paragraph" style="text-align:center;">
-        <strong>This section contains the various contracts and permission slips for SWAG mentors and mentees.</strong>
+      <div class="item" >
+          <button (click)="changeView('importantDocs')">
+        <h3>Important Documents</h3>
+      </button>
+      <br>
+        <span>This section contains the various contracts and permission slips for SWAG mentors and mentees.</span>
       </div>
 
 
-     
-        <div style="height: 10px; overflow: hidden;"></div>
-        <a class="wsite-button wsite-button-large wsite-button-highlight" href="http://www.swagtocollege.org/parent-resources.html">
-          <span class="wsite-button-inner">Parent Resources</span>
-        </a>
-
-
-        <div class="paragraph" style="text-align:center;">
-          <strong>
-            <font color="#10104b">This section contains helpful information for parents and a letter explaining SWAG To College.</font>
-          </strong>
-        </div>
+      <div class="item" >
       
+        <button (click)="changeView('parent')">
+          <h3>Parent Resources</h3>
+        </button>
+          <br>
+            <span>This section contains helpful information for parents and a letter explaining SWAG To College.</span>
+          
+        </div>
+      </div>
     </div>
     <!-- End of landing page-->
     <div class="view" *ngIf="selectedView=='college'">

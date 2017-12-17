@@ -1,3 +1,38 @@
 $primary-color: #09335D;
 $secondary-color: white;
 $tertiary-color: #33a27f;
+$link:#2a92e5;
+
+button{
+    background-color:white;
+    color:$link;
+    border-style: solid;
+    border-color: $link;
+    height: 3em;
+    width: 15em;
+}
+button:hover{
+    background-color:$link;
+    color:white;
+}
+h2{
+    margin-top: 2em;
+    text-align: center;
+    color: $tertiary-color;
+}
+
+#buttonWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .item{
+        padding: 5em 5em 0 5em;
+    }
+    
+}
+#buttonWrapper:last-child{
+
+    margin-bottom: 2em;
+}
+
+

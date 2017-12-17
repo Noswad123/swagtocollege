@@ -13,8 +13,6 @@ getTimeline(timeline){
       if(this.timelines[i].grade==timeline){
 
         return this.timelines[i];
-      }else{
-        console.log("Timeline not Found")
       }
 
 

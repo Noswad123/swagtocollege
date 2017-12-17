@@ -1,94 +1,43 @@
-<button (click)="changeView('college')">
-  Opportunities for College Students</button>
-<button (click)="changeView('hs')">Opportunities for High School</button>
-<button (click)="changeView('yp')">Opportunities for Young Professionals</button>
-<button (click)="changeView('parents')">Opportunities for Parents</button>
-<button (click)="changeView('community')">Opportunities for Community Leaders</button>
-<button (click)="changeView('donate')">Donate</button>
-<button (click)="changeView('school')">Opportunities forSchool Administration</button>
+<div class="view" *ngIf="selectedView !='landing'">
 
-<div class="view" *ngIf="selectedView=='landing'">
-
-
-  <h2 class="wsite-content-title" style="text-align:center;">
-    <font color="#248d6c">Get Involved</font>
-  </h2>
-
-  <div style="text-align:center;">
-    <div style="height: 10px; overflow: hidden;"></div>
-    <a class="wsite-button wsite-button-large wsite-button-highlight" href="high-school-students.html">
-      <span class="wsite-button-inner">High School Students</span>
-    </a>
-    <div style="height: 10px; overflow: hidden;"></div>
-  </div>
-
-  <div class="wsite-spacer" style="height:50px;"></div>
-
-  <div style="text-align:center;">
-    <div style="height: 10px; overflow: hidden;"></div>
-    <a class="wsite-button wsite-button-large wsite-button-highlight" href="school-admin.html">
-      <span class="wsite-button-inner">School Administration</span>
-    </a>
-    <div style="height: 10px; overflow: hidden;"></div>
-  </div>
-
-
-
-
-  <div style="text-align:center;">
-    <div style="height: 10px; overflow: hidden;"></div>
-    <a class="wsite-button wsite-button-large wsite-button-highlight" href="college-students.html">
-      <span class="wsite-button-inner">College Students</span>
-    </a>
-    <div style="height: 10px; overflow: hidden;"></div>
-  </div>
-
-  <div class="wsite-spacer" style="height:50px;"></div>
-
-  <div style="text-align:center;">
-    <div style="height: 10px; overflow: hidden;"></div>
-    <a class="wsite-button wsite-button-large wsite-button-highlight" href="parents.html">
-      <span class="wsite-button-inner">Parents/Guardians</span>
-    </a>
-    <div style="height: 10px; overflow: hidden;"></div>
-  </div>
-
-
-
-  <div style="text-align:center;">
-    <div style="height: 10px; overflow: hidden;"></div>
-    <a class="wsite-button wsite-button-large wsite-button-highlight" href="young-professionals.html">
-      <span class="wsite-button-inner">Young Professionals</span>
-    </a>
-    <div style="height: 10px; overflow: hidden;"></div>
-  </div>
-
-  <div class="wsite-spacer" style="height:50px;"></div>
-
-  <div style="text-align:center;">
-    <div style="height: 10px; overflow: hidden;"></div>
-    <a class="wsite-button wsite-button-large wsite-button-highlight" href="community-members.html">
-      <span class="wsite-button-inner">Community Leaders</span>
-    </a>
-    <div style="height: 10px; overflow: hidden;"></div>
-  </div>
-
-
-
-
-  <div class="wsite-spacer" style="height:50px;"></div>
-
-  <div style="text-align:center;">
-    <div style="height: 10px; overflow: hidden;"></div>
-    <a class="wsite-button wsite-button-large wsite-button-highlight" href="donate.html">
-      <span class="wsite-button-inner">Make a Donation</span>
-    </a>
-    <div style="height: 10px; overflow: hidden;"></div>
-  </div>
-
-
+  <button (click)="changeView('college')">Opportunities for College Students</button>
+  <button (click)="changeView('hs')">Opportunities for High School</button>
+  <button (click)="changeView('yp')">Opportunities for Young Professionals</button>
+  <button (click)="changeView('parents')">Opportunities for Parents</button>
+  <button (click)="changeView('community')">Opportunities for Community Leaders</button>
+  <button (click)="changeView('donate')">Donate</button>
+  <button (click)="changeView('school')">Opportunities for School Administration</button>
 </div>
 
+<div class="view" id="landing" *ngIf="selectedView=='landing'">
+
+
+  <h2>Get Involved</h2>
+
+  <div id="buttonWrapper">
+    <div class="item">
+      <button (click)="changeView('hs')">High School Students</button>
+    </div>
+    <div class="item">
+      <button (click)="changeView('school')">School Administration</button>
+    </div>
+    <div class="item">
+      <button (click)="changeView('college')">College Students</button>
+    </div>
+    <div class="item">
+      <button (click)="changeView('parents')">Parents/Guardians</button>
+    </div>
+    <div class="item">
+      <button (click)="changeView('yp')">Young Professionals</button>
+    </div>
+    <div class="item">
+      <button (click)="changeView('community')">Community Leaders</button>
+    </div>
+    <div class="item">
+      <button (click)="changeView('donate')">Make a Donation</button>
+    </div>
+  </div>
+</div>
 
 <!-- end landing wrap -->
 

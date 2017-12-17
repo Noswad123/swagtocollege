@@ -12,6 +12,7 @@ export class TimelineComponent implements OnInit {
   selectedView:any;
   timelines:Timeline[];
   timeline:Timeline;
+  selectedMonth=true;
 
   constructor(private navigationService:NavigationService,
               private timelineService: TimelineService) { }
@@ -28,5 +29,11 @@ export class TimelineComponent implements OnInit {
   }
   getTimeline(timeline){
     this.timeline=this.timelineService.getTimeline(timeline);
+  }
+
+  monthToggle(month){
+    
+      this.selectedMonth= month;
+      console.log(this.selectedMonth);
   }
 }

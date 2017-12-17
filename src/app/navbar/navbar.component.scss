@@ -10,12 +10,12 @@ $secondary-color: white;
     margin: 0em;
 ul{
     //margin:0em 0em 1em 0em;
-padding-bottom: .5em;
+
     li{
        
         text-align:center;
         color:white;
-        padding: 8px 14px 5px 0px;
+        padding: 10px 14px 0px 0px;
         margin-bottom: .5em;
         position: relative;
         list-style: none;
@@ -27,6 +27,8 @@ padding-bottom: .5em;
             padding:0;
             background-color:gray;
            
+                padding-top:.7em;
+            
             li{
                 display:none;
                 overflow-y: visible;
@@ -44,6 +46,7 @@ padding-bottom: .5em;
                
             }
         }
+        
     }
     li:hover{
         ul{

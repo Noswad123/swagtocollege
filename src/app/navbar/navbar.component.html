@@ -10,10 +10,18 @@
         <button>Timeline</button>
       </a>
       <ul>
-        <li><a href="#">Student</a></li>
-        <li><a href="#">Parent</a></li>
-        <li><a href="#">Student Spanish</a></li>
-        <li><a href="#">Parent Spanish</a></li>
+        <li>
+          <a routerLink="/timeline" (click)="setView('timeline','student')">Student</a>
+        </li>
+        <li>
+          <a routerLink="/timeline" (click)="setView('timeline','parent')">Parent</a>
+        </li>
+        <li>
+          <a routerLink="/timeline" (click)="setView('timeline','studentSP')">Student Spanish</a>
+        </li>
+        <li>
+          <a routerLink="/timeline" (click)="setView('timeline','parentSP')">Parent Spanish</a>
+        </li>
       </ul>
     </li>
     <li>
@@ -22,31 +30,70 @@
       </a>
     </li>
     <li>
-      <a routerLink="/resources" routerLinkActive="active"><button>Resources</button></a>
+      <a routerLink="/resources" routerLinkActive="active">
+        <button>Resources</button>
+      </a>
       <ul>
-                  <li><a href="#">College Resources</a></li>
-                  <li><a href="#">Importdant Document</a></li>
-                  <li><a href="#">Online Resources</a></li>
-                  <li><a href="#">Parent Resources</a></li>
-                </ul>
+        <li>
+          <a routerLink="/resources" (click)="setView('resources','college')">College Resources</a>
+        </li>
+        <li>
+          <a routerLink="/resources" (click)="setView('resources','importantDocs')">Important Document</a>
+        </li>
+        <li>
+          <a routerLink="/resources" (click)="setView('resources','online')">Online Resources</a>
+        </li>
+        <li>
+          <a routerLink="/resources" (click)="setView('resources','parent')">Parent Resources</a>
+        </li>
+      </ul>
     </li>
     <li>
-      <a routerLink="/about" routerLinkActive="active"><button>About Us</button></a>
+      <a routerLink="/about" routerLinkActive="active">
+        <button>About Us</button>
+      </a>
       <ul>
-                  <li><a href="#">Who We Are</a></li>
-                  <li><a href="#">Meet the Team</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">Statistics</a></li>
-                </ul>
+        <li>
+          <a routerLink="/about" (click)="setView('about','who')">Who We Are</a>
+        </li>
+        <li>
+          <a routerLink="/about" (click)="setView('about','meet')">Meet the Team</a>
+        </li>
+        <li>
+          <a routerLink="/about" (click)="setView('about','contact')">Contact Us</a>
+        </li>
+        <li>
+          <a routerLink="/about" (click)="setView('about','statistics')">Statistics</a>
+        </li>
+      </ul>
     </li>
     <li>
-      <a routerLink="/involved" routerLinkActive="active"> <button>Get Involved</button></a>
+      <a routerLink="/involved" routerLinkActive="active">
+        <button>Get Involved</button>
+      </a>
       <ul>
-                  <li>one</li>
-                  <li>two</li>
-                  <li>three</li>
-                  <li>four</li>
-                </ul>
+        <li>
+          <a routerLink="/involved" (click)="setView('involved','hs')">High School Students</a>
+        </li>
+        <li>
+          <a routerLink="/involved" (click)="setView('involved','school')">School Administration</a></li>
+        <li>
+          <a routerLink="/involved" (click)="setView('involved','college')">College Students</a>
+        </li>
+        <li>
+          <a routerLink="/involved" (click)="setView('involved','parents')">Parents/Guardians</a>
+        </li>
+        <li>
+          <a routerLink="/involved" (click)="setView('involved','yp')">Young Professionals</a>
+        </li>
+        <li>
+          <a routerLink="/involved" (click)="setView('involved','community')">Community Leaders</a>
+        </li>
+        <li>
+          <a routerLink="/involved" (click)="setView('involved','donate')">Make a Donation</a>
+        </li>
+
+      </ul>
     </li>
-  </ul>
+    </ul>
 </div>
