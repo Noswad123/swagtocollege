@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 export class NavigationService {
   view = {
     "involved": "landing",
-    "timeline": "landing",
+    "timeline": "student",
     "about": "landing",
     "resources": "landing"
   }

@@ -9,7 +9,7 @@ import {TimelineService} from "../services/timeline.service";
   styleUrls: ['./timeline.component.scss']
 })
 export class TimelineComponent implements OnInit {
-  selectedView:any;
+  selectedView:any="student";
   timelines:Timeline[];
   timeline:Timeline;
   selectedMonth=true;
@@ -18,7 +18,7 @@ export class TimelineComponent implements OnInit {
               private timelineService: TimelineService) { }
 
   ngOnInit() {
-    this.getTimeline("empty");
+    this.getTimeline("Freshman");
     this.selectedView=this.navigationService.getView("timeline");
   }
 

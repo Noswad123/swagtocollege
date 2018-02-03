@@ -14,6 +14,65 @@ button:hover{
     background-color:$link;
     color:white;
 }
-img{
-    height: 500px;
+
+#container{
+    display: flex;
+    button{
+        width:100px;
+    }
+    #side_panel{
+        width:300px;
+        padding: 50px;
+        &>button{
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-color: black;
+            bottom: none;
+        }
+        
+        .sub_panel{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            
+            background-color: $primary-color;
+            padding:20px 0;
+            width:250px;
+                   
+        }
+    }
+    .main{
+        width:80vw;
+        button{
+            width:100%;
+            opacity: 1;
+            z-index: 100;
+        }
+        padding-right:30px;
+        .steps{
+           height: auto;
+            transition:all 2s;
+            animation-name: stepDown;
+animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    animation-timing-function: ease-in-out;
+    z-index: 10;
+        }
+    }
+   
+}
+@keyframes stepDown{
+
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+
+
 }

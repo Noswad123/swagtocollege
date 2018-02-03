@@ -16,48 +16,8 @@ export const Timelines: Timeline[] = [
         ],
         months: [
             {
-                month: "January",
-                steps: [
-                        "Make 3 goals for semester and tell your mentor about them. ",
-                        "Use www.onejump.org to identify 3 interesting summer programs.",
-                        "Remind your parents to file their taxes and encourage them to begin saving money for college. Set up a college savings account with your family."
-                        ]
-            },
-            {
-                month: "February",
-                steps: ["Submit 3 summer opportunity applications found on www.onejump.org that are relevant to your career interests."]
-            },
-            {
-                month: "March",
-                steps: [
-                        "Complete any spring break homework.",
-                        "Begin applying for scholarships/crowdfunding for summer opportunities."
-                    ]
-            },
-            {
-                month: "April",
-                steps: [
-                        "Finalize summer opportunity.",
-                        "Explore college visit options."
-                    ]
-            },
-            {
-                month: "May",
-                steps: [
-                        "Create finals study plan. ",
-                        "Finish year strong. ",
-                        "Reflect on freshman year and tell your mentor your 3 strengths the from year and 3 areas of growth."
-                    ]
-            },
-            {
                 month: "Summer",
-                steps: ["Volunteer at least 10 hours.",
-                        "Khan Academy for 10th grade math and science classes. ",
-                        "Study for the PSAT which you will take in October of 10th grade.",
-                        "Check your updated GPA and rank and create a summer plan of how you will improve this the following year.",
-                        "Khan Academy for 10th grade math and science classes. ",
-                        "Study for the PSAT which you will take in October of 10th grade.",
-                        "Volunteer at least 10 hours."]
+                steps: ["material needed"]
             },
             {
                 month: "August",
@@ -91,7 +51,42 @@ export const Timelines: Timeline[] = [
                         "Reflect on first semester and tell your mentor 3 ways in which you will improve. ",
                         "Organize binders and notebooks for next semester."
                     ]
+            },
+            {
+                month: "January",
+                steps: [
+                        "Make 3 goals for semester and tell your mentor about them. ",
+                        "Use www.onejump.org to identify 3 interesting summer programs.",
+                        "Remind your parents to file their taxes and encourage them to begin saving money for college. Set up a college savings account with your family."
+                        ]
+            },
+            {
+                month: "February",
+                steps: ["Submit 3 summer opportunity applications found on www.onejump.org that are relevant to your career interests."]
+            },
+            {
+                month: "March",
+                steps: [
+                        "Complete any spring break homework.",
+                        "Begin applying for scholarships/crowdfunding for summer opportunities."
+                    ]
+            },
+            {
+                month: "April",
+                steps: [
+                        "Finalize summer opportunity.",
+                        "Explore college visit options."
+                    ]
+            },
+            {
+                month: "May",
+                steps: [
+                        "Create finals study plan. ",
+                        "Finish year strong. ",
+                        "Reflect on freshman year and tell your mentor your 3 strengths the from year and 3 areas of growth."
+                    ]
             }
+           
         ]
     },//end of Freshman Year
     {
@@ -104,55 +99,18 @@ export const Timelines: Timeline[] = [
             "Maintain a binder with college materials and application requirements."
         ],
         months: [
-            {
-                month: "January",
-                steps: [
-                        "Make 3 goals for semester and tell your mentor about them. ",
-                        "Use www.onejump.org to identify 3 interesting summer programs.",
-                        "Remind your parents to file their taxes and encourage them to begin saving money for college. Set up a college savings account with your family."
-                        ]
-            },
-            {
-                month: "February",
-                steps: ["Submit 5 summer opportunity applications found on www.onejump.org that are relevant to your career interests."]
-            },
-            {
-                month: "March",
-                steps: [
-                        "Complete any spring break homework.",
-                        "Begin applying for scholarships/crowdfunding for summer opportunities.",
-                        "Continue applying for summer opportunities."
-                    ]
-            },
-            {
-                month: "April",
-                steps: [
-                        "Finalize summer opportunity.",
-                        "Study for any upcoming standardized/state exams.",
-                        "Register for SAT Subject Tests if you plan on applying to a top 20 school or a school out of your state."
-                    ]
-            },
-            {
-                month: "May",
-                steps: [
-                        "Create finals study plan. ",
-                        "Finish year strong. ",
-                        "Reflect on sophomore year and tell your mentor your 3 strengths the from year and 3 areas of growth."
-                    ]
-            },
+            
             {
                 month: "Summer",
                 steps: [
-                        "Use Khan Academy to study for the PSAT and SAT which you will take in junior year.",
-                        "Try to visit at least 1 college and meet with the admissions representative. Colleges offer individual and group tours, so ensure you contact the admission representative before visiting the school. ",
-                        "Study for the PSAT which you will take in October of 10th grade.",
-                        "Use Khan Academy to prepare for your 11th grade math class.",
-                        "If you can get a part-time job, use it to save money for college.",
-                        "Check your updated GPA and rank and create a summer plan of how you will improve this the following year.",
-                        "Use Khan Academy to study for the PSAT and SAT which you will take in junior year. ",
-                        "If you can get a part-time job, use it to save money for college.",
-                        "Try to visit at least 1 college and meet with the admissions representative. Colleges offer individual and group tours, so ensure you contact the admission representative before visiting the school. ",
-                        "Volunteer at least 10 hours."]
+                    "Volunteer at least 10 hours.",
+                "Khan Academy for 10th grade math and science classes. ",
+                "Study for the PSAT which you will take in October of 10th grade.",
+                "Check your updated GPA and rank and create a summer plan of how you will improve this the following year.",
+                "Khan Academy for 10th grade math and science classes. ",
+                "Study for the PSAT which you will take in October of 10th grade.",
+                "Volunteer at least 10 hours."
+                        ]
             },
             {
                 month: "August",
@@ -189,6 +147,42 @@ export const Timelines: Timeline[] = [
                         "Reflect on first semester and tell your mentor 3 ways in which you will improve. ",
                         "Organize binders and notebooks for next semester."
                     ]
+            },
+            {
+                month: "January",
+                steps: [
+                        "Make 3 goals for semester and tell your mentor about them. ",
+                        "Use www.onejump.org to identify 3 interesting summer programs.",
+                        "Remind your parents to file their taxes and encourage them to begin saving money for college. Set up a college savings account with your family."
+                        ]
+            },
+            {
+                month: "February",
+                steps: ["Submit 5 summer opportunity applications found on www.onejump.org that are relevant to your career interests."]
+            },
+            {
+                month: "March",
+                steps: [
+                        "Complete any spring break homework.",
+                        "Begin applying for scholarships/crowdfunding for summer opportunities.",
+                        "Continue applying for summer opportunities."
+                    ]
+            },
+            {
+                month: "April",
+                steps: [
+                        "Finalize summer opportunity.",
+                        "Study for any upcoming standardized/state exams.",
+                        "Register for SAT Subject Tests if you plan on applying to a top 20 school or a school out of your state."
+                    ]
+            },
+            {
+                month: "May",
+                steps: [
+                        "Create finals study plan. ",
+                        "Finish year strong. ",
+                        "Reflect on sophomore year and tell your mentor your 3 strengths the from year and 3 areas of growth."
+                    ]
             }
         ]
     },//End of Sophomore
@@ -203,66 +197,21 @@ export const Timelines: Timeline[] = [
                "Talk to college representatives who visit your campus or at a local college fair"
             ],
         months: [
-            {
-                month: "January",
-                steps: [
-                        "Make 3 goals for semester and tell your mentor about them. ",
-                        "Use www.onejump.org to identify 3 interesting summer programs.",
-                        "Remind your parents to file their taxes and encourage them to begin saving money for college. Set up a college savings account with your family."
-                        ]
-            },
-            {
-                month: "February",
-                steps: [
-                        "Submit 5 summer opportunity applications found on www.onejump.org that are relevant to your career interests.",
-                        "Continue studying for the SAT or ACT. ",
-                        "Register for the SAT through College Board and ACT through www.actstudent.org. If you receive free or reduced lunch, get a fee waiver from your college counselor."
-                    ]
-            },
-            {
-                month: "March",
-                steps: [
-                        "Complete any spring break homework.",
-                        "Begin applying for scholarships/crowdfunding for summer opportunities."
-                    ]
-            },
-            {
-                month: "April",
-                steps: [
-                        "Learn about Early Decision/Early Action and whether or not you would like to apply to schools in either form.",
-                        "Ask teachers for letters of recommendation.",
-                        "Finalize summer opportunity. ",
-                        "Study for any standardized/state exam. ",
-                        "Register for SAT Subject Tests if you plan on applying to a Top 20 school or a school out of your state and if you don\'t have at least 3 secure SATII exam scores. ",
-                        "Make a list of the colleges you are applying to share it with your parents."
-
-                    ]
-            },
-            {
-                month: "May",
-                steps: [
-                        "Create finals study plan. ",
-                        "Finish year strong. ",
-                        "Reflect on junior year and tell your mentor your 3 strengths the from year and 3 areas of growth."
-                    ]
-            },
+            ,
             {
                 month: "Summer",
                 steps: [
-                        "Register and take at least 3SATIIs if you plan on applying to a \'Top 20\' school or a school out of the state in which you reside.",
-                        "Complete your college list with 4-6 schools. Use Naviance to research the test score and GPA requirements of each school. Ensure 2 schools have test score and GPA range that you qualify for.",
-                        "Create a chart to track and manage your college applications. Understand the requirements for all the colleges that you are applying to.",
-                        "Visit 2 colleges from your list and talk to the admission representatives. ",
-                        "Create a Common Application account as well as a respective account for that state in which you reside. (Texas: Apply Texas)",
-                        "Begin your college essay using Apply Texas or Common App prompt. Have your first and second draft ready to be edited.",
-                        "Sign up for fastweb.org and begin applying for scholarships.", 
-                        "Complete a summer opportunity.",
-                        "Update your resume with new academic, service, or leadership accomplishments. ",
-                        "Study for SAT or ACT if you will be taking one again. ",
-                        "Secure recommendation letters from teachers. ",
-                        "Encourage parents to plan on filing taxes in January of 12th grade. ",
-                        "Try to visit a college on your list.",
-                        "Check your updated GPA and rank and create a summer plan of how you will improve this the following year."
+                    "Use Khan Academy to study for the PSAT and SAT which you will take in junior year.",
+                        "Try to visit at least 1 college and meet with the admissions representative. Colleges offer individual and group tours, so ensure you contact the admission representative before visiting the school. ",
+                        "Study for the PSAT which you will take in October of 10th grade.",
+                        "Use Khan Academy to prepare for your 11th grade math class.",
+                        "If you can get a part-time job, use it to save money for college.",
+                        "Check your updated GPA and rank and create a summer plan of how you will improve this the following year.",
+                        "Use Khan Academy to study for the PSAT and SAT which you will take in junior year. ",
+                        "If you can get a part-time job, use it to save money for college.",
+                        "Try to visit at least 1 college and meet with the admissions representative. Colleges offer individual and group tours, so ensure you contact the admission representative before visiting the school. ",
+                        "Volunteer at least 10 hours."
+                       
                     ]
             },
          
@@ -309,6 +258,49 @@ export const Timelines: Timeline[] = [
                         "Use winter break to continue studying for the SAT or ACT. ",
                         "Register for the SAT through College Board and ACT through www.actstudent.org. If you receive free or reduced lunch, get a fee waiver from your college counselor."
                     ]
+            },
+            {
+                month: "January",
+                steps: [
+                        "Make 3 goals for semester and tell your mentor about them. ",
+                        "Use www.onejump.org to identify 3 interesting summer programs.",
+                        "Remind your parents to file their taxes and encourage them to begin saving money for college. Set up a college savings account with your family."
+                        ]
+            },
+            {
+                month: "February",
+                steps: [
+                        "Submit 5 summer opportunity applications found on www.onejump.org that are relevant to your career interests.",
+                        "Continue studying for the SAT or ACT. ",
+                        "Register for the SAT through College Board and ACT through www.actstudent.org. If you receive free or reduced lunch, get a fee waiver from your college counselor."
+                    ]
+            },
+            {
+                month: "March",
+                steps: [
+                        "Complete any spring break homework.",
+                        "Begin applying for scholarships/crowdfunding for summer opportunities."
+                    ]
+            },
+            {
+                month: "April",
+                steps: [
+                        "Learn about Early Decision/Early Action and whether or not you would like to apply to schools in either form.",
+                        "Ask teachers for letters of recommendation.",
+                        "Finalize summer opportunity. ",
+                        "Study for any standardized/state exam. ",
+                        "Register for SAT Subject Tests if you plan on applying to a Top 20 school or a school out of your state and if you don\'t have at least 3 secure SATII exam scores. ",
+                        "Make a list of the colleges you are applying to share it with your parents."
+
+                    ]
+            },
+            {
+                month: "May",
+                steps: [
+                        "Create finals study plan. ",
+                        "Finish year strong. ",
+                        "Reflect on junior year and tell your mentor your 3 strengths the from year and 3 areas of growth."
+                    ]
             }
         ]
     },//end of Junior
@@ -320,54 +312,30 @@ export const Timelines: Timeline[] = [
             "Check grades weekly and attend tutorials in classes with grades below an A or B."
         ],
         months: [
-            {
-                month: "January",
-                steps: [
-                        "Make 3 goals for the semester and tell your mentor about them." ,
-                        "Follow up with college representatives to ensure all your materials have been received." ,
-                        "Remind parents to file taxes by the end of January. Preferably, ask them to submit them electronically.", 
-                        "Submit the FAFSA or TAFSA immediately after your parents file their taxes"
-                        ]
-            },
-            {
-                month: "February",
-                steps: [
-                    "Ensure that colleges have received your FAFSA orTAFSA." ,
-                    "If your FAFSA is \'audited\', be ready to submit extra paperwork."
-                ]
-            },
-            {
-                month: "March",
-                steps: [
-                        "Use spring break to apply for at least 3 scholarships."
-                    ]
-            },
-            {
-                month: "April",
-                steps: [
-                        "Compare financial aid packages. ",
-                        "Finalize college decision by end of April." ,
-                        "Pay deposit or ask for it to be waived." ,
-                        "Register and take the TSI if necessary. (Only necessary for Texas public institutions.)"
-                    ]
-            },
-            {
-                month: "May",
-                steps: [
-                    "Ensure your AP scores are directly sent to your college." ,
-                    "Apply for at least 3 more scholarships/summer jobs." ,
-                    "Ensure that you have sufficient credits to graduate and have completed all paperwork necessary."
-                    ]
-            },
+            
             {
                 month: "Summer",
                 steps: [
-                   " Take 1 English or math class at community college in order to prepare for college. ",
+                    "Register and take at least 3SATIIs if you plan on applying to a \'Top 20\' school or a school out of the state in which you reside.",
+                    "Complete your college list with 4-6 schools. Use Naviance to research the test score and GPA requirements of each school. Ensure 2 schools have test score and GPA range that you qualify for.",
+                    "Create a chart to track and manage your college applications. Understand the requirements for all the colleges that you are applying to.",
+                    "Visit 2 colleges from your list and talk to the admission representatives. ",
+                    "Create a Common Application account as well as a respective account for that state in which you reside. (Texas: Apply Texas)",
+                    "Begin your college essay using Apply Texas or Common App prompt. Have your first and second draft ready to be edited.",
+                    "Sign up for fastweb.org and begin applying for scholarships.", 
+                    "Complete a summer opportunity.",
+                    "Update your resume with new academic, service, or leadership accomplishments. ",
+                    "Study for SAT or ACT if you will be taking one again. ",
+                    "Secure recommendation letters from teachers. ",
+                    "Encourage parents to plan on filing taxes in January of 12th grade. ",
+                    "Try to visit a college on your list.",
+                    "Check your updated GPA and rank and create a summer plan of how you will improve this the following year."
+                  /* " Take 1 English or math class at community college in order to prepare for college. ",
                    " Talk to adviser at college and then sign up for Fall Semester classes. Attend orientation. ",
                     "Continue applying for scholarships. ",
                     "Find a summer job to save money for college.",
                    " If you will be living in a dorm, get your dorm supplies and communicate with your roommate." ,
-                    "Most importantly, enjoy the summer; spend time with family and friends; recharge your battery, and get ready for the next step. ​"
+                    "Most importantly, enjoy the summer; spend time with family and friends; recharge your battery, and get ready for the next step. ​"*/
                 ]
             },
             {
@@ -420,6 +388,45 @@ export const Timelines: Timeline[] = [
                         "Finalize and submit any supplementary applications you have. ",
                         "Remind parents to file taxes. ",
                         "Organize binders and notebooks for next semester."
+                    ]
+            },
+            {
+                month: "January",
+                steps: [
+                        "Make 3 goals for the semester and tell your mentor about them." ,
+                        "Follow up with college representatives to ensure all your materials have been received." ,
+                        "Remind parents to file taxes by the end of January. Preferably, ask them to submit them electronically.", 
+                        "Submit the FAFSA or TAFSA immediately after your parents file their taxes"
+                        ]
+            },
+            {
+                month: "February",
+                steps: [
+                    "Ensure that colleges have received your FAFSA orTAFSA." ,
+                    "If your FAFSA is \'audited\', be ready to submit extra paperwork."
+                ]
+            },
+            {
+                month: "March",
+                steps: [
+                        "Use spring break to apply for at least 3 scholarships."
+                    ]
+            },
+            {
+                month: "April",
+                steps: [
+                        "Compare financial aid packages. ",
+                        "Finalize college decision by end of April." ,
+                        "Pay deposit or ask for it to be waived." ,
+                        "Register and take the TSI if necessary. (Only necessary for Texas public institutions.)"
+                    ]
+            },
+            {
+                month: "May",
+                steps: [
+                    "Ensure your AP scores are directly sent to your college." ,
+                    "Apply for at least 3 more scholarships/summer jobs." ,
+                    "Ensure that you have sufficient credits to graduate and have completed all paperwork necessary."
                     ]
             }
         ]

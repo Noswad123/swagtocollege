@@ -10,6 +10,9 @@ import {TimelineComponent} from './timeline/timeline.component';
 import {ResourcesComponent} from './resources/resources.component';
 import {GetInvolvedComponent} from './get-involved/get-involved.component';
 import {AboutUsComponent} from './about-us/about-us.component';
+import {LoginComponent} from './login/login.component';
+import { CallbackComponent } from './callback/callback.component';
+
 
 
 
@@ -23,6 +26,7 @@ const routes: Routes = [
   { path: 'involved',  component: GetInvolvedComponent },
   { path: 'resources',  component: ResourcesComponent },
   { path: 'timeline',  component: TimelineComponent },
+  { path: 'callback', component: CallbackComponent }
 ];
 
 @NgModule({

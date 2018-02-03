@@ -1,5 +1,27 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <navbar></navbar>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Hello User</a>
+
+      <button
+        class="btn btn-primary btn-margin"
+        *ngIf="!auth.isAuthenticated()"
+        (click)="auth.login()">
+          Log In
+      </button>
+
+      <button
+        class="btn btn-primary btn-margin"
+        *ngIf="auth.isAuthenticated()"
+        (click)="auth.logout()">
+          Log Out
+      </button>
+
+    </div>
+  </div>
+</nav>
 <div id="container">
   <router-outlet></router-outlet>
 </div>
